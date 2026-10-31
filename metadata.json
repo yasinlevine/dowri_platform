@@ -1,0 +1,6 @@
+{
+  "name": "Dowri Platform",
+  "description": "Official digital platform and artistic store for Dowri (دوری) — urban creative space, courtyard café, ceramics workshop, and handcrafted artisan goods.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
