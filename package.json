@@ -8,7 +8,9 @@
     "build": "vite build",
     "preview": "vite preview",
     "clean": "rm -rf dist server.js",
-    "lint": "tsc --noEmit"
+    "lint": "tsc --noEmit",
+    "convert:webp": "node scripts/convert-to-webp.mjs",
+    "convert:watch": "node scripts/convert-to-webp.mjs --watch"
   },
   "dependencies": {
     "@google/genai": "^2.4.0",

@@ -20,8 +20,8 @@ export const DOWRI_PRODUCTS: Product[] = [
     materialsFa: 'گل استون‌ور دمابالا، لعاب اکسیدی آبی کبالت، پخت در دمای ۱۲۲۰ درجه سانتی‌گراد',
     dimensionsFa: 'ارتفاع: ۲۲ سانتی‌متر | قطر دهانه: ۱۱ سانتی‌متر',
     images: [
-      '/src/assets/images/dowri_ceramic_studio_1793451781336.jpg',
-      '/src/assets/images/dowri_courtyard_cafe_1793451781553.jpg'
+      '/src/assets/images/dowri_ceramic_studio_1793451781336.webp',
+      '/src/assets/images/dowri_courtyard_cafe_1793451781553.webp'
     ],
     stock: 4,
     isFeatured: true,
@@ -48,7 +48,7 @@ export const DOWRI_PRODUCTS: Product[] = [
     materialsFa: 'سرامیک نسوز دست‌چرخ، لعاب بدون سرب بهداشتی',
     dimensionsFa: 'حجم: ۱۸۰ میلی‌لیتر | ارتفاع: ۸ سانتی‌متر',
     images: [
-      '/src/assets/images/dowri_ceramic_studio_1793451781336.jpg'
+      '/src/assets/images/dowri_ceramic_studio_1793451781336.webp'
     ],
     stock: 12,
     isFeatured: true,
@@ -74,7 +74,7 @@ export const DOWRI_PRODUCTS: Product[] = [
     materialsFa: 'نقره استرلینگ ۹۲۵، مینای گرم شیشه‌ای، ورق طلای مات',
     dimensionsFa: 'ابعاد مدال: ۳.۲ × ۲ سانتی‌متر | طول زنجیر: ۵۵ سانتی‌متر',
     images: [
-      '/src/assets/images/dowri_jewelry_artisan_1793451781849.jpg'
+      '/src/assets/images/dowri_jewelry_artisan_1793451781849.webp'
     ],
     stock: 3,
     isFeatured: true,
@@ -101,7 +101,7 @@ export const DOWRI_PRODUCTS: Product[] = [
     materialsFa: 'نقره استرلینگ ۹۲۵ توپر، مینای آبگینه‌ای',
     dimensionsFa: 'سایز متغیر ۵۴ تا ۶۲ (قابل سفارش طبق اندازه انگشت)',
     images: [
-      '/src/assets/images/dowri_jewelry_artisan_1793451781849.jpg'
+      '/src/assets/images/dowri_jewelry_artisan_1793451781849.webp'
     ],
     stock: 5,
     isFeatured: false,
@@ -128,7 +128,7 @@ export const DOWRI_PRODUCTS: Product[] = [
     materialsFa: 'رنگ پایه آب ژاپنی، مقوای فابریانو کتان ۳۰۰ گرمی',
     dimensionsFa: '۵۰ × ۷۰ سانتی‌متر (ارسال در لوله محافظ ضدضربه)',
     images: [
-      '/src/assets/images/dowri_art_prints_lifestyle_1793451782166.jpg'
+      '/src/assets/images/dowri_art_prints_lifestyle_1793451782166.webp'
     ],
     stock: 9,
     isFeatured: true,
@@ -155,7 +155,7 @@ export const DOWRI_PRODUCTS: Product[] = [
     materialsFa: 'وینیل ضدآب UV با برش نیم‌تیغ (Kiss-cut)',
     dimensionsFa: 'هر استیکر بین ۵ تا ۸ سانتی‌متر',
     images: [
-      '/src/assets/images/dowri_art_prints_lifestyle_1793451782166.jpg'
+      '/src/assets/images/dowri_art_prints_lifestyle_1793451782166.webp'
     ],
     stock: 45,
     isFeatured: false,
@@ -181,7 +181,7 @@ export const DOWRI_PRODUCTS: Product[] = [
     materialsFa: 'کتان پنبه طبیعی ۱۰۰٪ ارگانیک، چاپ سیلک دستی مقاوم در برابر شستشو',
     dimensionsFa: '۴۲ × ۳۸ سانتی‌متر | بلندی دسته: ۶۰ سانتی‌متر',
     images: [
-      '/src/assets/images/dowri_art_prints_lifestyle_1793451782166.jpg'
+      '/src/assets/images/dowri_art_prints_lifestyle_1793451782166.webp'
     ],
     stock: 18,
     isFeatured: true,
@@ -207,7 +207,7 @@ export const DOWRI_PRODUCTS: Product[] = [
     materialsFa: '۱۰۰٪ عربیکا تخصصی (Single Origin Blend)',
     dimensionsFa: 'بسته ۲۵۰ گرمی زیپ‌کیپ‌دار با سوپاپ هوای یک‌طرفه',
     images: [
-      '/src/assets/images/dowri_courtyard_cafe_1793451781553.jpg'
+      '/src/assets/images/dowri_courtyard_cafe_1793451781553.webp'
     ],
     stock: 25,
     isFeatured: false,
@@ -233,7 +233,7 @@ export const DOWRI_EVENTS: CommunityEvent[] = [
     capacity: 8,
     registeredCount: 6,
     price: 950000,
-    image: '/src/assets/images/dowri_ceramic_studio_1793451781336.jpg',
+    image: '/src/assets/images/dowri_ceramic_studio_1793451781336.webp',
     descriptionFa: 'آشنایی با تکنیک‌های فرم‌دهی دستی به گل استون‌ور، ساخت یک قطعه مجسمه‌وار و تجربه لعاب‌زنی با لعاب آبی دوری در کوره آتلیه.'
   },
   {
@@ -246,7 +246,7 @@ export const DOWRI_EVENTS: CommunityEvent[] = [
     capacity: 45,
     registeredCount: 38,
     price: 180000,
-    image: '/src/assets/images/dowri_courtyard_cafe_1793451781553.jpg',
+    image: '/src/assets/images/dowri_courtyard_cafe_1793451781553.webp',
     descriptionFa: 'دورهمی صمیمانه پاییزی دور میزهای نارنجی حیاط با اجرای زنده‌ی سازهای آکوستیک، نور ملایم نئون و پذیرایی با قهوه دوری.'
   },
   {
@@ -259,7 +259,7 @@ export const DOWRI_EVENTS: CommunityEvent[] = [
     capacity: 100,
     registeredCount: 74,
     price: 0, // رایگان با ثبت‌نام
-    image: '/src/assets/images/dowri_art_prints_lifestyle_1793451782166.jpg',
+    image: '/src/assets/images/dowri_art_prints_lifestyle_1793451782166.webp',
     descriptionFa: 'نمایش و فروش بی‌واسطه آثار سرامیک، زیورآلات معاصر، پرینت‌های لیمیتد ادیشن و اکسسوری در حیاط و سالن گیاهی دوری.'
   }
 ];

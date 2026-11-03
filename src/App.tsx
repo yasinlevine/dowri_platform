@@ -16,7 +16,8 @@ import { CheckoutModal } from './components/CheckoutModal.tsx';
 import { SearchModal } from './components/SearchModal.tsx';
 import { EventsSection } from './components/EventsSection.tsx';
 import { Footer } from './components/Footer.tsx';
-import { CheckCircle2 } from 'lucide-react';
+import { WebpConverterModal } from './components/WebpConverterModal.tsx';
+import { CheckCircle2, Sparkles } from 'lucide-react';
 
 export default function App() {
   // Persistence for cart and user state
@@ -44,6 +45,7 @@ export default function App() {
   const [isAuthOpen, setIsAuthOpen] = useState(false);
   const [isCheckoutOpen, setIsCheckoutOpen] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
+  const [isWebpModalOpen, setIsWebpModalOpen] = useState(false);
   const [activeTab, setActiveTab] = useState('shop');
   const [searchQuery, setSearchQuery] = useState('');
   const [toastMessage, setToastMessage] = useState<string | null>(null);
@@ -229,6 +231,22 @@ export default function App() {
         onSelectProduct={(p) => setSelectedProduct(p)}
         onSetSearchQuery={(q) => setSearchQuery(q)}
       />
+
+      {/* In-Browser WebP Image Converter Tool */}
+      <WebpConverterModal
+        isOpen={isWebpModalOpen}
+        onClose={() => setIsWebpModalOpen(false)}
+      />
+
+      {/* Floating WebP Tool Trigger */}
+      <button
+        onClick={() => setIsWebpModalOpen(true)}
+        className="fixed bottom-6 left-6 z-40 bg-white/95 hover:bg-white text-slate-800 hover:text-[#0055FF] border border-slate-200/90 shadow-md hover:shadow-lg rounded-2xl px-3.5 py-2.5 text-xs font-semibold flex items-center gap-2 transition-all cursor-pointer backdrop-blur-xs active:scale-95 group"
+        title="مبدل خودکار تصاویر به WebP"
+      >
+        <Sparkles className="w-4 h-4 text-[#0055FF] group-hover:rotate-12 transition-transform" />
+        <span>مبدل WebP</span>
+      </button>
 
       {/* Toast Notification */}
       {toastMessage && (

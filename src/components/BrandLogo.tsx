@@ -38,7 +38,7 @@ export const BrandLogo: React.FC<BrandLogoProps> = ({
       {/* Official Dowri Logo Image */}
       <div className="relative flex items-center justify-center shrink-0">
         <img
-          src="/assets/aistudio/photo_2026-10-22_20-20-53_copy_ea6c5469.png"
+          src="/assets/aistudio/photo_2026-10-22_20-20-53_copy_ea6c5469.webp"
           alt="Dowri Platform Logo"
           className={`${sizeMap[size].img} object-contain transition-all hover:scale-105 ${
             isWhite ? 'brightness-0 invert' : 'mix-blend-multiply'

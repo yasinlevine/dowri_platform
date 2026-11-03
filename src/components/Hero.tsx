@@ -79,7 +79,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreShop, onExploreWorkshops })
           <div className="lg:col-span-5 relative">
             <div className="relative rounded-2xl overflow-hidden shadow-xl border border-black/[0.08] bg-white group">
               <img
-                src="/src/assets/images/dowri_courtyard_cafe_1793451781553.jpg"
+                src="/src/assets/images/dowri_courtyard_cafe_1793451781553.webp"
                 alt="حیاط و کافه دوری با میزهای نارنجی و درختان سرسبز"
                 referrerPolicy="no-referrer"
                 className="w-full h-[400px] sm:h-[460px] object-cover transition-transform duration-700 group-hover:scale-105"
